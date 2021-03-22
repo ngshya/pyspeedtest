@@ -243,7 +243,7 @@ for j in range(5):
     classifier.fit(X, Y, batch_size=64, epochs=100, verbose=0)
     l.append(time()-start)
 pprint(m="Neural Network CPU", l=l)
-
+'''
 environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 l = []
@@ -263,3 +263,4 @@ for j in range(5):
     classifier.fit(X, Y, batch_size=64, epochs=100, verbose=0)
     l.append(time()-start)
 pprint(m="Neural Network GPU", l=l)
+'''
