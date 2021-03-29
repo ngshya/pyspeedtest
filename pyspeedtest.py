@@ -34,7 +34,6 @@ def pprint(m, l):
 
 
 def compute_stuff(x): 
-    sleep(0.1)
     output = 0.0
     for j in range(100):
         for i in range(100):
